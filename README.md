@@ -1,14 +1,12 @@
 install jupyter environment
 ====================
 
-* Just run "make" and it will install jupyter notebook and kernels
+* Just run "make" at the toplevel directory and it will install jupyter notebook and kernels
 
 ```
-inst_jupyter$ make
+install_some_jupyter_kernels$ make
 cd jupyter && make -f jupyter.mk
 cd c && make -f c.mk
-cd ocaml && make -f ocaml.mk
-cd vpython && make -f vpython.mk
 cd sos && make -f sos.mk
 ```
 
