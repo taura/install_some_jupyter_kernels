@@ -36,7 +36,7 @@ By default only C and sos will be installed.
 Root install vs user install
 ====================
 
-You can choose whether you install it via root (sudo pip3 install ...) or via regular user (pip3 install --user ...) by changing the following lines in each .mk file (c/c.mk, ocaml/ocam.mk, vpython/vpython.mk and sos/sos.mk)
+You can choose whether you install it as root (sudo pip3 install ...) or as a regular user (pip3 install --user ...) by changing the following lines in each .mk file (c/c.mk, ocaml/ocam.mk, vpython/vpython.mk and sos/sos.mk)
 
 ```
 #mode?=user
