@@ -15,10 +15,10 @@ cd sos && make -f sos.mk
 Folders
 ====================
 
-* `c` : C and shell kernel
-* `ocaml` : OCaml
+* `c` : C and shell kernel, extended https://github.com/brendan-rius/jupyter-c-kernel including some bug fixes)
+* `ocaml` : OCaml 
 * `vpython` : visual python
-* `sos` : script of script (multiple kernels in one page)
+* `sos` : script of script (multiple kernels in one page) https://vatlab.github.io/sos-docs/
 
 `ocaml` and `sos` simply install packages by pip
 `c` and `vpython` install extended/bug-fixed kernels
